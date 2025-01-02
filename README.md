@@ -5,11 +5,11 @@ A Python application for downloading videos from various platforms with a modern
 ---
 
 ## Features
-- Fetch video thumbnails and select resolutions.
-- Automatic progress tracking with visual updates.
-- Supports downloading videos in 480p, 720p, and 1080p.
-- Simple and intuitive graphical user interface (GUI).
-- Ensures `FFmpeg` is available for video processing.
+- **Pick Your Resolution**: Choose between 480p, 720p, or 1080p.
+- **See Before You Download**: Preview the video thumbnail before downloading.
+- **Track Progress**: Watch the download progress in real-time.
+- **Simple to Use**: No confusing commands – just click buttons!
+- **Video Processing**: Uses a powerful tool called `FFmpeg` (the program sets this up for you).
 
 ---
 
@@ -39,17 +39,24 @@ A Python application for downloading videos from various platforms with a modern
 
 ---
 
-## Directory Structure
-project/
-├── gui.py                # Contains the main GUI logic using Tkinter; manages user interface and events.
-├── utils.py              # Provides utility functions, including resetting the GUI and fetching video titles.
-├── video_downloader.py   # Handles video downloading, thumbnail fetching, and ensuring FFmpeg availability.
-├── constants.py          # Stores all constant values for styling, configuration, and application settings.
-├── run.py                # Entry point for the application; calls the GUI's main function to start the app.
-├── requirements.txt      # Lists all Python dependencies needed to run the application.
-├── assets/
-│   └── icon.png          # Stores the application's icon used in the GUI.
-└── README.md             # Documentation for the project, including installation and usage instructions.
+### Directory Structure
+- `gui.py`  
+    *Contains the main GUI logic using Tkinter; manages user interface and events.*
+- `utils.py`  
+    *Provides utility functions, including resetting the GUI and fetching video titles.*
+- `video_downloader.py`  
+    *Handles video downloading, thumbnail fetching, and ensuring FFmpeg availability.*
+- `constants.py`  
+    *Stores all constant values for styling, configuration, and application settings.*
+- `run.py`  
+    *Entry point for the application; calls the GUI's main function to start the app.*
+- `requirements.txt`  
+    *Lists all Python dependencies needed to run the application.*
+- `assets/`
+    - `icon.png`  
+        *Stores the application's icon used in the GUI.*
+- `README.md`  
+    *Documentation for the project, including installation and usage instructions.*
 
 ---
 
