@@ -56,9 +56,3 @@ project/
 ## Troubleshooting
 - **"FFmpeg not found" Error**: The program ensures `FFmpeg` is downloaded automatically. Check the `ffmpeg` directory in the project folder if issues persist.
 - **Dependency Issues**: Ensure all dependencies are installed with `pip install -r requirements.txt`.
-
----
-
-## License
-MIT License
-
