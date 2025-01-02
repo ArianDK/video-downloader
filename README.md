@@ -1,6 +1,6 @@
 # Video Downloader
 
-A Python application for downloading videos from various platforms with a modern GUI interface.
+A Python application with a modern GUI interface. It is made for downloading videos mainly from YouTube and Instagram and save them as .mp4 files.
 
 ---
 
