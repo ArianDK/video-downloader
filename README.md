@@ -13,18 +13,23 @@ A Python application with a modern GUI interface. It is made for downloading vid
 - **Simple to Use**: No confusing commands – just click buttons!
 - **Video Processing**: Uses a powerful tool called <code>FFmpeg</code> (the program sets this up for you).
 <div align="center">
-    <img src="./assets/ffmpeg.svg" alt="FFmpeg" width="150" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/480p.png" alt="480p" width="100"height="100"/>
-    <img src="./assets/720p.png" alt="720p" width="100"height="100"/>
-    <img src="./assets/1080p.png" alt="1080p" width="100"height="100"/>
-    <img src="./assets/YouTube-Logo.png" alt="YouTube Logo" width="100"height="100"/>
-    <img src="./assets/Instagram-Logo.png" alt="Instagram Logo" width="100"height="100"/>
+    <!-- <img src="./assets/ffmpeg.svg" alt="FFmpeg" width="150" height="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    <img src="./assets/480p.png" alt="480p" width="100" height="100"/>
+    <img src="./assets/720p.png" alt="720p" width="100" height="100"/>
+    <img src="./assets/1080p.png" alt="1080p" width="100" height="100"/>
 </div>
 
 ## Supports
+### Operating Systems
 <div align="center">
     <img src="./assets/Windows-Logo.png" alt="Windows Logo" style="height: 80px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="./assets/macOS-Logo.png" alt="MacOS Logo" style="height: 80px;">
+</div>
+
+### Platforms
+<div align="center">
+    <img src="./assets/YouTube-Logo.png" alt="YouTube Logo" width="250" height="150"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/Instagram-Logo.png" alt="Instagram Logo" width="220" height="100"/>
 </div>
 
 ---
