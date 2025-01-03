@@ -9,7 +9,19 @@ A Python application with a modern GUI interface. It is made for downloading vid
 - **See Before You Download**: Preview the video thumbnail before downloading.
 - **Track Progress**: Watch the download progress in real-time.
 - **Simple to Use**: No confusing commands – just click buttons!
-- **Video Processing**: Uses a powerful tool called `FFmpeg` (the program sets this up for you).
+- **Video Processing**: Uses a powerful tool called <code>FFmpeg</code> (the program sets this up for you).
+<div align="center">
+    <img src="./assets/ffmpeg.png" alt="FFmpeg" style="height: 50px;">
+    <img src="./assets/480p.png" alt="480p" style="height: 50px;">
+    <img src="./assets/720p.png" alt="720p" style="height: 50px;">
+    <img src="./assets/1080p.png" alt="1080p" style="height: 50px;">
+</div>
+
+## Supports
+<div align="center">
+    <img src="./assets/Windows-Logo.png" alt="Windows Logo" style="height: 50px;">
+    <img src="./assets/macOS-Logo.png" alt="MacOS Logo" style="height: 50px;">
+</div>
 
 ---
 
