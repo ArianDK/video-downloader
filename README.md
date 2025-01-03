@@ -28,8 +28,8 @@ A Python application with a modern GUI interface. It is made for downloading vid
 
 ### Platforms
 <div align="center">
-    <img src="./assets/YouTube-Logo.png" alt="YouTube Logo" width="250" height="150"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/Instagram-Logo.png" alt="Instagram Logo" width="220" height="100"/>
+    <img src="./assets/YouTube-Logo.png" alt="YouTube Logo" width="150" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/Instagram-Logo.png" alt="Instagram Logo" width="190" height="50"/>
 </div>
 
 ---
