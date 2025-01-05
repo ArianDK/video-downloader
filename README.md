@@ -32,6 +32,7 @@ A Python application with a modern GUI interface. It is made for downloading vid
 
 
 ## Instalation (Create Standalone Executable)
+<img src=".\assets\py-to-exe.png" width="300" align="right"/>
 It is assumed that Python and pip are installed on your system.
 
 Follow these steps to set up and run the **Video Downloader** on your computer:
