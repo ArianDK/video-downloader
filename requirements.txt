@@ -1,3 +1,4 @@
-yt-dlp
+pyinstaller
 requests
-pillow
+yt-dlp
+Pillow

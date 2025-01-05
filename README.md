@@ -34,50 +34,36 @@ A Python application with a modern GUI interface. It is made for downloading vid
 
 ---
 
-## Installation
+## Instalation (Create Standalone Executable)
+It is assumed that Python and pip are installed on your system.
 
-### Prerequisites
-1. **Python 3.8 or later**: Make sure Python is installed on your system. Download it from [Python.org](https://www.python.org/).
-2. **Git** (optional): Install Git if you want to clone the repository directly.
+Follow these steps to set up and run the **Video Downloader** on your computer:
 
-### Steps to Install and Run:
-1. Clone the repository or download it as a ZIP file:
-    ```bash
-    git clone https://github.com/yourusername/video-downloader.git
-    cd video-downloader
-    ```
-   Or, download the ZIP file from the repository, extract it, and navigate to the folder.
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the application:
-    ```bash
-    python run.py
-    ```
+1. Download the repository as a zip file and unzip it.
+2. Open your terminal or command prompt and navigate to the password generator directory by typing `cd path/to/your/directory/video downloader-main`.
+3. In the command prompt now type `pip install -r requirements.txt` to download the required packages.
+4. Now you should type `pyinstaller --onefile --noconsole --add-data "assets/icon.png;assets" --add-data "assets/icon.ico;assets" --hidden-import "yt-dlp" --hidden-import "requests" --hidden-import "pillow" --icon "assets/icon.ico" --distpath . "Video Downloader.py" & rmdir /s /q build & del "Video Downloader.spec"` to install the Video Downloader as a standalone executable.
+4. Now the Video Downloader.exe file should be in video-downloader-main and you can run it.
 
 ---
 
-### Directory Structure
-- `gui.py`  
-    *Contains the main GUI logic using Tkinter; manages user interface and events.*
-- `utils.py`  
-    *Provides utility functions, including resetting the GUI and fetching video titles.*
-- `video_downloader.py`  
-    *Handles video downloading, thumbnail fetching, and ensuring FFmpeg availability.*
-- `constants.py`  
-    *Stores all constant values for styling, configuration, and application settings.*
-- `run.py`  
-    *Entry point for the application; calls the GUI's main function to start the app.*
-- `requirements.txt`  
-    *Lists all Python dependencies needed to run the application.*
-- `assets/`
-    - `icon.png`  
-        *Stores the application's icon used in the GUI.*
-- `README.md`  
-    *Documentation for the project, including installation and usage instructions.*
+## Screenshots
+<div align="center">
+    <img src="./assets/screenshots/YouTube_Capture.PNG" alt="Windows Logo" style="height: 80px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/screenshots/Instagram_Capture.PNG" alt="MacOS Logo" style="height: 80px;">
+</div>
+
+---
+
+## Directory Structure
+- **Video Downloader.py**: Entry point for the application; calls the GUI's main function to start the app.
+- **gui.py**: Contains the main GUI logic using Tkinter; manages user interface and events.
+- **utils.py**: Provides utility functions, including resetting the GUI and fetching video titles.
+- **video_downloader.py**: Handles video downloading, thumbnail fetching, and ensuring FFmpeg availability.
+- **constants.py**: Stores all constant values for styling, configuration, and application settings.
+- **requirements.txt**: Lists all Python dependencies needed to run the application.
+- **assets/**: Stores the application's icon used in the GUI.
+- **README.md**: Documentation for the project, including installation and usage instructions.
 
 ---
 

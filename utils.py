@@ -2,7 +2,7 @@ import re
 import threading
 from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk
-from video_downloader import fetch_video_thumbnail, download_video_with_progress
+from video_downloader_functions import fetch_video_thumbnail, download_video_with_progress
 from yt_dlp import YoutubeDL
 
 
@@ -155,6 +155,3 @@ def get_video_title(link):
             return sanitized_title
     except Exception as e:
         raise RuntimeError(f"Could not fetch video title: {str(e)}")
-
-
-

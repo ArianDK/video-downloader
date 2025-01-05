@@ -1,5 +1,3 @@
-# Constants for the Video Downloader project
-
 # Application style settings
 APP_BG_COLOR = "#f4f4f8"
 APP_TEXT_COLOR = "#333"
